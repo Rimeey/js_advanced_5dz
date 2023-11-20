@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+h2 {
+    text-align: left;
+    margin: 10px;
+}
+fieldset {
+    border: none;
+
+}
+.result {
+    max-width: 500px;
+    margin: 20px auto;
+}
+.result p {
+    border: 1px solid black;
+    padding: 2%;
+    word-wrap: break-word;
+}
+form textarea {
+    padding: 15px;
+    font-family: monospace;
+    max-width: 600px;
+    max-height: 250px;
+}
+form label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+.italics {
+    font-style: italic;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.justify {
+    text-align: justify;
+}
